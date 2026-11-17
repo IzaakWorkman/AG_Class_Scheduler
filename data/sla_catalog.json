@@ -1,0 +1,97 @@
+{
+  "times": ["10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM"],
+  "hours": [10, 11, 12, 13, 14, 15],
+  "facilitators": ["Lock", "Glen", "Banks", "Richards", "Shaw", "Singer", "Uther", "Tyler", "Numen", "Zeldin"],
+  "rooms": [
+    {"name": "Beach 201", "building": "Beach", "capacity": 18, "equipment": ["projector"]},
+    {"name": "Beach 301", "building": "Beach", "capacity": 25, "equipment": ["lab", "projector"]},
+    {"name": "Frank 119", "building": "Frank", "capacity": 95, "equipment": ["lab", "projector"]},
+    {"name": "Loft 206", "building": "Loft", "capacity": 55, "equipment": []},
+    {"name": "Loft 310", "building": "Loft", "capacity": 48, "equipment": ["lab"]},
+    {"name": "James 325", "building": "James", "capacity": 110, "equipment": ["lab", "projector"]},
+    {"name": "Roman 201", "building": "Roman", "capacity": 40, "equipment": []},
+    {"name": "Roman 216", "building": "Roman", "capacity": 80, "equipment": ["lab", "projector"]},
+    {"name": "Slater 003", "building": "Slater", "capacity": 32, "equipment": ["lab", "projector"]}
+  ],
+  "activities": [
+    {
+      "name": "SLA101A",
+      "enrollment": 40,
+      "preferred": ["Glen", "Lock", "Banks"],
+      "other": ["Numen", "Richards", "Shaw", "Singer"],
+      "equipment": []
+    },
+    {
+      "name": "SLA101B",
+      "enrollment": 35,
+      "preferred": ["Glen", "Lock", "Banks"],
+      "other": ["Numen", "Richards", "Shaw", "Singer"],
+      "equipment": []
+    },
+    {
+      "name": "SLA191A",
+      "enrollment": 45,
+      "preferred": ["Glen", "Lock", "Banks"],
+      "other": ["Numen", "Richards", "Shaw", "Singer"],
+      "equipment": ["lab"]
+    },
+    {
+      "name": "SLA191B",
+      "enrollment": 40,
+      "preferred": ["Glen", "Lock", "Banks"],
+      "other": ["Numen", "Richards", "Shaw", "Singer"],
+      "equipment": ["lab"]
+    },
+    {
+      "name": "SLA201",
+      "enrollment": 60,
+      "preferred": ["Glen", "Banks", "Zeldin", "Lock", "Singer"],
+      "other": ["Richards", "Uther", "Shaw"],
+      "equipment": []
+    },
+    {
+      "name": "SLA291",
+      "enrollment": 50,
+      "preferred": ["Glen", "Banks", "Zeldin", "Lock", "Singer"],
+      "other": ["Richards", "Uther", "Shaw"],
+      "equipment": ["lab"]
+    },
+    {
+      "name": "SLA303",
+      "enrollment": 25,
+      "preferred": ["Glen", "Zeldin"],
+      "other": ["Banks"],
+      "equipment": ["lab", "projector"]
+    },
+    {
+      "name": "SLA304",
+      "enrollment": 20,
+      "preferred": ["Singer", "Uther"],
+      "other": ["Richards"],
+      "equipment": ["lab"]
+    },
+    {
+      "name": "SLA394",
+      "enrollment": 15,
+      "preferred": ["Tyler", "Singer"],
+      "other": ["Richards", "Zeldin"],
+      "equipment": []
+    },
+    {
+      "name": "SLA449",
+      "enrollment": 30,
+      "preferred": ["Tyler", "Zeldin", "Uther"],
+      "other": ["Zeldin", "Shaw"],
+      "equipment": ["projector"]
+    },
+    {
+      "name": "SLA451",
+      "enrollment": 90,
+      "preferred": ["Lock", "Banks", "Zeldin"],
+      "other": ["Tyler", "Singer", "Shaw", "Glen"],
+      "equipment": ["lab", "projector"]
+    }
+  ],
+  "sla101": ["SLA101A", "SLA101B"],
+  "sla191": ["SLA191A", "SLA191B"]
+}
