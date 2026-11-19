@@ -1,0 +1,8 @@
+# Runtime libraries for the SLA genetic algorithm project.
+# Lower bounds only; after both partners install, run
+#   pip freeze > requirements.lock
+# once and commit it so everyone gets identical versions.
+numpy>=1.26        # arrays, PCG64DXSM random generator
+scipy>=1.11        # scipy.special.softmax
+matplotlib>=3.8    # GUI charts (embedded in Tkinter)
+plotext>=5.2       # terminal chart for the CLI
