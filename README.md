@@ -47,6 +47,9 @@ Each generation prints one line: generation, best, average and worst fitness,
 improvement % and mutation rate. At the end the program prints the best schedule
 and a chart of best, average and worst fitness over the generations.
 
+`--seed`, `--mutation`, `--show`, `--sort` and `--group` apply to a single run only;
+the other flags also work with `sweep`. `python cli.py --help` lists them all.
+
 | Flag | Values | Default |
 | --- | --- | --- |
 | `--pop` | Population size: at least 250 and a multiple of 4 | 252 |
